@@ -30,9 +30,13 @@ psql -U postgres
 \i database/schema.sql
 \dt
 
+![Screenshot](assets/screenshots/screenshot1.png)
+
 Once you have confirmed the database is running, navigate to server.js in your terminal and enter "node server.js" to get the program running.
 
 In your terminal, a list of commands will appear that you can navigate to. To select, scrolling over the desired command and press "enter."
+
+![Screenshot](assets/screenshots/screenshot1.png)
 
 If you select "Add a department," follow the prompt to enter the name for the new department you are adding to the database.
 
@@ -43,8 +47,6 @@ If you select "Add an employee," follow the prompts to enter the first name, las
 If you select "Update an employee role," follow the prompts to select the employee and the employee's new role.
 
 To exit the program, select "Exit" in the main list of prompts.
-
-Alternatively, please navigate to this live [link](https://note-taker-program-1.onrender.com/) to use the program.
 
 ## Contributions
 When contributing to this repository, please reach out to me via e-mail to discuss the change you would like to make first. I am open to ideas both with regards to data stored in the tables and alterations to user interaction with the data.
