@@ -233,7 +233,7 @@ const addEmployee = () => {
                         },
                     ]).then((answer) => {
                         const query = 'INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES ($1, $2, $3, $4)';
-                        client.query(query, [answer.first_name, answer.last_name, answer.role_id, answer.manager_id], (err, res) => {
+                        client.query(query, [answer.first_name, answer.last_name, answer.role_id, answer.employee_id], (err, res) => {
                             if (err) {
                                 console.error(err);
                             } else {

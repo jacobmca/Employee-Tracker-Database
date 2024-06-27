@@ -28,6 +28,7 @@ First, ensure that the SQL database "company" is running by entering the followi
 
 psql -U postgres
 \i database/schema.sql
+\i database/seeds.sql
 \dt
 
 ![Screenshot](assets/screenshots/screenshot1.png)
@@ -47,6 +48,8 @@ If you select "Add an employee," follow the prompts to enter the first name, las
 If you select "Update an employee role," follow the prompts to select the employee and the employee's new role.
 
 To exit the program, select "Exit" in the main list of prompts.
+
+[Please see this video demo.](https://drive.google.com/file/d/1PP3oA2emudyxFvhaZHXWfPYuwG45HWFN/view?usp=sharing) If unable to view, you can also find the video in assets/videos/screenrecording1.mov.
 
 ## Contributions
 When contributing to this repository, please reach out to me via e-mail to discuss the change you would like to make first. I am open to ideas both with regards to data stored in the tables and alterations to user interaction with the data.
